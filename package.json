@@ -1,0 +1,16 @@
+{
+  "name": "lern",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "update:version": "lerna version"
+  },
+  "private": true,
+  "workspaces": [
+    "workspaces/*"
+  ],
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
